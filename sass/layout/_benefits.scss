@@ -1,4 +1,27 @@
+.benefit__list {
+    width: 480px;
+}
+
+// .benefit-item {
+//     display: inline-block;
+//     width: 450px;
+//     height: 226px;
+//     margin: 30 auto;
+// }
+
+.benefit__image {
+    width: 450px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+}
+
 .benefit__title {
+    width: 270px;
+    height: 16px;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -7,29 +30,63 @@
     color: var(--primary-font-color);
     margin-bottom: 10px;
     margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;    
 }
 
 .benefit__description {
+    width: 450px;
+    height: 50px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--secondary-font-color);
+    color: var(--secondary-font-color);    
 }
 
-.benefit__list {
-    display: flex;
+
+
+@media screen and (min-width:768px) {
+
 }
 
-.benefit__item:not(:last-child) {
-    margin-right: 30px;
+@media screen and (min-width:1200px) {
+    
 }
 
-.benefit__image {
-    width: 270px;
-    height: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px;
-    background-color: #F5F4FA;
-}
+
+// .benefit__title {
+//     font-weight: 700;
+//     font-size: 14px;
+//     line-height: 1.14;
+//     letter-spacing: 0.03em;
+//     text-transform: uppercase;
+//     color: var(--primary-font-color);
+//     margin-bottom: 10px;
+//     margin-top: 30px;
+// }
+
+// .benefit__description {
+//     font-size: 14px;
+//     line-height: 1.71;
+//     letter-spacing: 0.03em;
+//     color: var(--secondary-font-color);
+// }
+
+// .benefit__list {
+//     display: flex;
+// }
+
+// .benefit__item:not(:last-child) {
+//     margin-right: 30px;
+// }
+
+// .benefit__image {
+//     width: 270px;
+//     height: 120px;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     border-radius: 4px;
+//     background-color: #F5F4FA;
+// }
