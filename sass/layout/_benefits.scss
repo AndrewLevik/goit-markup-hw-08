@@ -49,6 +49,8 @@
         padding-left: 0;
         padding-right: 0;
 
+
+/* пришлось поставить -4px потому что иконки не помещались в контейнер */
         &:not(:first-child) {
             margin-left: -4px;
         }
@@ -114,48 +116,3 @@
     margin-left: auto;
     margin-right: auto;  
 }
-
-
-
-
-
-// @media screen and (min-width:1200px) {
-    
-// }
-
-
-// .benefit__title {
-//     font-weight: 700;
-//     font-size: 14px;
-//     line-height: 1.14;
-//     letter-spacing: 0.03em;
-//     text-transform: uppercase;
-//     color: var(--primary-font-color);
-//     margin-bottom: 10px;
-//     margin-top: 30px;
-// }
-
-// .benefit__description {
-//     font-size: 14px;
-//     line-height: 1.71;
-//     letter-spacing: 0.03em;
-//     color: var(--secondary-font-color);
-// }
-
-// .benefit__set {
-//     display: flex;
-// }
-
-// .benefit__item:not(:last-child) {
-//     margin-right: 30px;
-// }
-
-// .benefit__image {
-//     width: 270px;
-//     height: 120px;
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     border-radius: 4px;
-//     background-color: #F5F4FA;
-// }

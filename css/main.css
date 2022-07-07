@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --primary-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
@@ -845,6 +846,7 @@ body.modal-open {
     margin: 0;
     padding-left: 0;
     padding-right: 0;
+    /* пришлось поставить -4px потому что иконки не помещались в контейнер */
   }
   .benefit__item:not(:first-child) {
     margin-left: -4px;

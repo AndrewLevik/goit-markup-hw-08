@@ -51,8 +51,6 @@
 
 @media screen and (min-width: 768px) {
 .projects {
-    // padding: 0;
-    // margin: 0;
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
@@ -78,13 +76,11 @@
     margin: 15px;
 
     @media screen and (min-width: 1200px) {
-    width: calc((100% - 90px) / 3);
-    
+    width: calc((100% - 90px) / 3);    
     }
 
     @media screen and (min-width: 768px) and (max-width: 1199px) {
-    width: calc((100% - 60px) / 2);
-    
+    width: calc((100% - 60px) / 2);    
     }
 }
 
@@ -110,24 +106,12 @@
     }
 }
 
-// .projects__link {
-//     display: block;
-//     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-//     &:hover,
-//     &:focus {
-//         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
-//         0px 4px 4px rgba(0, 0, 0, 0.06),
-//         1px 4px 6px rgba(0, 0, 0, 0.16);
-//     }
-// }
-
 .projects__content {
     flex-grow: 1;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 24px;
-    // padding-right: 24px;
+    // padding-right: 24px;  ломает размер второй карточки. не переносится текст заголовока
     border: 1px solid #EEEEEE;
     border-top: none;
 }
@@ -147,8 +131,6 @@
     letter-spacing: 0.03em;
     color: var(--secondary-font-color);
 }
-
-
 
 .projects__overlay {
     position: absolute;
@@ -174,17 +156,3 @@
     }
 }
 
-// @media screen and (min-width: 1200px) {
-// .projects__item:not(:nth-child(3n)) {
-//     margin-right: 30px;
-//     }
-
-// .projects__item:nth-child(-n+6) {
-//     margin-bottom: 30px;
-//     }
-// }
-
-// .projects__wrapper {
-//     position: relative;
-//     overflow: hidden;
-// }
