@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./css/main.min.css">    
 </head>
 <body>
+    <!-- HEADER -->
     <header class="header">
         <div class="container header__container">
             <nav class="header-navigation">
@@ -51,6 +52,7 @@
                 </li>
             </ul>
         </div>
+        <!-- MOBILE-MENU -->
         <div class="mobile-menu" data-menu>
             <div class="container mobile-menu__container">
                 <button type="button" class="mobile-menu__close-button" data-menu-close>
@@ -63,13 +65,14 @@
                         <a class="mobile-nav-menu__link link" href="./index.html">Студия</a>
                     </li>
                     <li class="mobile-nav-menu__item">
-                        <a class="mobile-nav-menu__link link" href="./portfolio.html">Портфолио</a>
+                        <a class="mobile-nav-menu__link link menu__link-current" href="./portfolio.html">Портфолио</a>
                     </li>
                     <li class="mobile-nav-menu__item">
                         <a class="mobile-nav-menu__link link" href="#contacts">Контакты</a>
                     </li>
                 </ul>
-                <ul class="mobile-contacts-menu list">
+                <div>
+                 <ul class="mobile-contacts-menu list">
                     <li class="mobile-contacts-menu__phone">
                         <a class="mobile-contacts-menu__link-phone link" href="tel:+380961111111">+38 096 111 11 11</a>
                     </li>
@@ -91,7 +94,8 @@
                     <li class="mobile-socials-menu__item">
                         <a class="mobile-socials-menu__link link" href="">Linkedin</a>
                     </li>
-                </ul>
+                </ul>   
+                </div>                
             </div>
         </div>
     </header>
@@ -504,7 +508,7 @@
         <div class="footer-container container">
             <div class="footer-leftside">
                 <a class="logo-footer logo link" href="./index.html"> Web<span class="logo-white">Studio</span></a>
-                <address id="contacts">
+                <address class="footer-leftside__adress" id="contacts">
                     <ul class="contact-footer list">
                         <li class="contact-footer__item">
                             <a class="contact-footer__address link" href="https://goo.gl/maps/N3cb1Y7R8XNuQPWY6"
