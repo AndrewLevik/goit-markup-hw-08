@@ -964,6 +964,10 @@ body.modal-open {
   }
 }
 
+.employees__image {
+  width: 100%;
+}
+
 @media screen and (max-width: 1199px) {
   .employees__content {
     padding-top: 30px;
@@ -1179,7 +1183,7 @@ address {
 
 @media screen and (min-width: 1200px) {
   .footer-leftside {
-    margin-right: 70px;
+    margin-bottom: 0px;
     flex-grow: 1;
   }
 }
